@@ -1,0 +1,11 @@
+[Protocol]
+exec=csports-qt '%u'
+protocol=csports
+input=none
+output=none
+helper=true
+listing=
+reading=false
+writing=false
+makedir=false
+deleting=false

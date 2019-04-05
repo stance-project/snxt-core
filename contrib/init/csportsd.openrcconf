@@ -1,0 +1,26 @@
+# /etc/conf.d/csportsd: config file for /etc/init.d/csportsd
+
+# Config file location
+#BITCOIND_CONFIGFILE="/etc/csports/csports.conf"
+
+# What directory to write pidfile to?  (created and owned by $BITCOIND_USER)
+#BITCOIND_PIDDIR="/var/run/csportsd"
+
+# What filename to give the pidfile
+#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/csportsd.pid"
+
+# Where to write csportsd data (be mindful that the blockchain is large)
+#BITCOIND_DATADIR="/var/lib/csportsd"
+
+# User and group to own csportsd process
+#BITCOIND_USER="csports"
+#BITCOIND_GROUP="csports"
+
+# Path to csportsd executable
+#BITCOIND_BIN="/usr/bin/csportsd"
+
+# Nice value to run csportsd under
+#BITCOIND_NICE=0
+
+# Additional options (avoid -conf and -datadir, use flags above)
+BITCOIND_OPTS=""

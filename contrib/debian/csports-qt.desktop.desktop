@@ -1,0 +1,11 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=csports
+Comment=csports P2P Cryptocurrency
+Exec=csports-qt %u
+Terminal=false
+Type=Application
+Icon=csports128
+MimeType=x-scheme-handler/csports;
+Categories=Office;Finance;
+Name[en_US]=csports-qt.desktop
