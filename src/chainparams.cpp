@@ -113,7 +113,7 @@ public:
         nMaxMoneyOut = 13370000 * COIN;
 
         /** Height or Time Based Activations **/
-        nLastPOWBlock = 150;
+        nLastPOWBlock = 1050;
         nModifierUpdateBlock = 1; // we use the version 2 for CSPN
 
         const char* pszTimestamp = "112018 Bitcoin has hit below $4225 USD 12mo Low. BCH trying to recover from 51% attack. People balming BCH for crypto maket free fail.";
@@ -170,8 +170,8 @@ public:
 
         nPoolMaxTransactions = 3;
         strSporkKey = "04273383a4b45f1c37bcfbdb220472e2d2e19888afd61ef12a220fbffd7b40d49e041fc6cf35e77913e060b489f5427001a56d94efc31bcdf35805921ffc1e43de";
-        strMasternodePoolDummyAddress = "GSJVWUkt6HtSCY2SaJ2akeyJUg8bg1hW3S";
-        nStartMasternodePayments = genesis.nTime + 86400; // 24 hours after genesis creation
+        strMasternodePoolDummyAddress = "CHjHm8qKSA3uL4Ponxd8CGXaUDMbdDZHxD";
+        nStartMasternodePayments = genesis.nTime + 10; //86400; // 24 hours after genesis creation
 
         nBudget_Fee_Confirmations = 6; // Number of confirmations for the finalization fee
     }
